@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="/img/icono_W.png">
+    <title>Wordle Clone - Jugando</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100;400;700&family=Montserrat:wght@100;400;800&family=Poppins:wght@100;400;800&family=Staatliches&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <h1>Wordle</h1>
+    </header>
+
+    <main class="contenedor contenido-canvas">
+      <section class="juego">
+        <div class="canvas">
+          <canvas id="ahorcado" width="330px" height="400px"></canvas>
+        </div>
+        <div class="contenedor-boton">
+          <button class="boton"><a href="/index.html" target="_blank">Como jugar?</a></button>
+      </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="contenido_footer">
+          <p>Desarrollado por Julian Pachon</p>
+          <p>2022</p>
+          <a href="https://www.linkedin.com/in/juliantm/" class="btn"><img src="/img/Linkedin.png" alt="Logo Linkedin"></a>
+          <a href="https://github.com/JulianTM" class="btn"><img src="/img/Github.png" alt="Logo Github"></a>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="/js/canvas.js"></script>
+    <script type="text/javascript" src="/js/palabra-secreta.js"></script>
+  </body>
+</html>

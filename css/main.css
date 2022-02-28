@@ -1,0 +1,152 @@
+:root{
+  --primario: #0A3871;
+  --secundario: #D8DFE8;
+  --terciario: #AAB2D5;
+  --fondo: #E9ECF8;
+  --blanco: #fff;
+  --negro: #000;
+
+  --fuentePrincipal: 'Poppins', sans-serif;
+}
+
+/*
+================================ GLOBALES ====================================
+*/
+body {
+  background-color: var(--fondo);
+  font-family: var(var(--fuentePrincipal));
+}
+
+.contenedor{
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+/*
+================================ TITULOS ====================================
+*/
+
+header{
+  margin: 40px 0;
+}
+h1{
+  text-align: center;
+  color: #6AAA64;
+  font-family: var(--fuentePrincipal);
+  font-size: 50px;
+  font-weight: 800;
+}
+
+/*
+================================ INFORMACION ====================================
+*/
+
+.informacion{
+  width: 940px;
+  margin: 0 auto;
+  font-family: var(--fuentePrincipal);
+}
+
+.informacion h2, 
+.informacion h3, 
+.informacion p, 
+.informacion .boton{
+  margin: 20px;
+} 
+
+.informacion p{
+  line-height: 20px;
+}
+
+.informacion strong{
+  font-weight: 600;
+}
+
+.informacion .gris{
+  font-weight: 800;
+  color: #787C7E;
+}
+
+.informacion img{
+  margin: 0 20px;
+}
+
+.informacion h2{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.informacion h3{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.contenedor-boton{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/*
+================================ BOTONES ====================================
+*/
+
+.boton{
+  background-color: #6AAA64;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: none;
+  box-shadow: 1px 1px 11px 0px rgba(0,0,0,0.54);
+}
+
+.boton:hover{
+  box-shadow: 1px 1px 13px 1px rgba(0,0,0,0.54);
+}
+
+.boton a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: var(--fuentePrincipal);
+  font-weight: 600;
+}
+
+/*
+================================ CANVAS ====================================
+*/
+
+.canvas{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+/*
+================================= FOOTER =========================================
+*/
+
+footer{
+  background-color: var(--secundario);
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.contenido_footer{
+  width: 940px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 15px;
+  font-family: var(--fuentePrincipal);
+}
+
+.contenido_footer p{
+  display: block;
+  padding: 7px 0;
+}
+
+.contenido_footer img {
+  width: 3%;
+}
