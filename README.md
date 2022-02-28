@@ -1,6 +1,6 @@
 # Wordle Clone
 
-![img Wordle](https://user-images.githubusercontent.com/42880872/155906115-51392700-c21d-4fec-ac22-e48f4e90b8ff.png)
+![gif wordle](https://user-images.githubusercontent.com/42880872/155907090-c0fec2dd-3be4-4ad4-a1a4-2a08b41bb477.gif)
 
 _Este clone de wordle ha sido creado como proyecto personal, es un intento de asemejar el Wordle Oficial_
 
