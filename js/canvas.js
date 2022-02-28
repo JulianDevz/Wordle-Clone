@@ -86,17 +86,35 @@ function validarTextoFila(fila){
         arrayLetrasSecretas.push(palabraRandom.charAt(indiceTexto));
     }
 
-    //Pintas los cuadros segun corresponda
+    function tiene_repetidos(){
+        return new Set(arrayLetras).size!==arrayLetras.length
+    }
+    var repitio = tiene_repetidos();
+    console.log(repitio);
+
+    //Pintar los cuadros segun corresponda
     var contador2 = 0;
     for(var x = 1; x <= 6; x++){
         var contador = 0;
         for(var y = 0; y <= 4; y++){
+            //Si esta en la posicion correcta pintar de verde
             if((arrayLetras[y] == arrayLetrasSecretas[y]) && (fila == x)){
                 pincel.fillStyle = "#6AAA64";
                 pincel.fillRect(2 + contador,2 + contador2,58,58);
+
+            // sino esta en la posicion correcta y esta repetida en el array de letras usuario
+            }else if((arrayLetras[y] != arrayLetrasSecretas[y]) && (fila == x) && (repitio == true)){
+                pincel.fillStyle = "#787C7E";
+                pincel.fillRect(2 + contador,2 + contador2,58,58);
+                
+            //Si esta en la posicion inccorrecta pero esta en la palabra pintar de naranja
             }else if(arrayLetrasSecretas.includes(arrayLetras[y]) && fila == x){
+
+
                 pincel.fillStyle = "#C9B458";
                 pincel.fillRect(2 + contador,2 + contador2,58,58);
+
+            //Sino hace parte de la palabra pintar de gris
             }else if(fila == x){
                 pincel.fillStyle = "#787C7E";
                 pincel.fillRect(2 + contador,2 + contador2,58,58);

@@ -1,4 +1,4 @@
-var palabraSecreta = ['SOLAR','LETRA','GATOS','MENTA','PLAYA','RADIO','RATON','CARTA'];
+var palabraSecreta = ['SOLAR','LETRA','GATOS','MENTA','PLAYA','RADIO','RATON','CARTA','FELIZ'];
 
 var palabraRandom;
 function sortearPalabra(palabras){

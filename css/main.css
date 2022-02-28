@@ -83,14 +83,24 @@ h1{
 
 .contenedor-boton{
   text-align: center;
-  margin-bottom: 30px;
+  margin: 45px 0;
 }
 
 /*
 ================================ BOTONES ====================================
 */
 
+.cajon{
+  display: block;
+  margin: 60px 0;
+}
+
 .boton{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: var(--fuentePrincipal);
+  font-weight: 600;
   background-color: #6AAA64;
   padding: 10px 20px;
   border-radius: 7px;
@@ -102,14 +112,6 @@ h1{
   box-shadow: 1px 1px 13px 1px rgba(0,0,0,0.54);
 }
 
-.boton a{
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
-  font-family: var(--fuentePrincipal);
-  font-weight: 600;
-}
-
 /*
 ================================ CANVAS ====================================
 */
@@ -117,7 +119,6 @@ h1{
 .canvas{
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
 }
 
 /*
