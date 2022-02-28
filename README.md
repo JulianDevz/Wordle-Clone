@@ -17,4 +17,6 @@ _Este clone de wordle ha sido creado como proyecto personal, es un intento de as
 * Javascript
 
 ---
+
+![working](https://user-images.githubusercontent.com/42880872/156000518-c6e2113c-51f2-45a8-bcd9-da6021c3d7d3.gif)
 ⌨️ con ❤️ por [JulianTM](https://github.com/JulianTM) 😊
