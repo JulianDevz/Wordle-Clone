@@ -18,7 +18,7 @@ _Este clone de wordle ha sido creado como proyecto personal, es un intento de as
 
 ---
 
-<div text-align="center">
+<div align="center">
   ![giphy](https://user-images.githubusercontent.com/42880872/156003638-cb5322ae-3406-48c6-ba64-c8def9ed4876.gif)
 
   ⌨️ con ❤️ por [JulianTM](https://github.com/JulianTM) 😊
