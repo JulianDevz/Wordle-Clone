@@ -2,7 +2,7 @@
 
 <div align="center">
   
-  ![gif wordle](https://user-images.githubusercontent.com/42880872/155907090-c0fec2dd-3be4-4ad4-a1a4-2a08b41bb477.gif)
+  ![gif](https://user-images.githubusercontent.com/42880872/156020972-7ecb025f-0148-48eb-ae9a-797b698c4cfa.gif)
   
 </div>
 
