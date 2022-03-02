@@ -15,6 +15,9 @@
 body {
   background-color: var(--fondo);
   font-family: var(var(--fuentePrincipal));
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: auto;
 }
 
 .contenedor{
